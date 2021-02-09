@@ -5,6 +5,8 @@ venv/
 .venv/
 .env
 main.log
+vscode
+.vscode
 
 __pycache__/
 *.py[cod]
