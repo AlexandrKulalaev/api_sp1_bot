@@ -1,0 +1,15 @@
+2021-02-09 03:11:38,220, INFO, root, Бот запущен
+2021-02-09 03:11:38,220, INFO, root, Отправлено сообщение в чат Telegram
+2021-02-09 03:11:38,220, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 03:11:38,221, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 03:11:38,478, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1646614868:AAEQTmIMEJ_Igj9LZTOAVaUwy3F53vvIQ4g/sendMessage HTTP/1.1" 200 315
+2021-02-09 03:11:38,478, DEBUG, telegram.bot, {'message_id': 23, 'date': 1612829498, 'chat': {'id': 131447754, 'type': 'private', 'username': 'AlexandrKulalaev', 'first_name': 'Alexandr'}, 'text': 'Бот запущен', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1646614868, 'first_name': 'Future Lab', 'is_bot': True, 'username': 'Future_Lab_bot'}}
+2021-02-09 03:11:38,479, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 03:11:38,679, INFO, root, У вас проверили работу "AlexandrKulalaev__api_01_sms.zip"!
+
+Ревьюеру всё понравилось, можно приступать к следующему уроку.
+2021-02-09 03:11:38,679, INFO, root, Отправлено сообщение в чат Telegram
+2021-02-09 03:11:38,679, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 03:11:38,760, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1646614868:AAEQTmIMEJ_Igj9LZTOAVaUwy3F53vvIQ4g/sendMessage HTTP/1.1" 200 740
+2021-02-09 03:11:38,760, DEBUG, telegram.bot, {'message_id': 24, 'date': 1612829498, 'chat': {'id': 131447754, 'type': 'private', 'username': 'AlexandrKulalaev', 'first_name': 'Alexandr'}, 'text': 'У вас проверили работу "AlexandrKulalaev__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1646614868, 'first_name': 'Future Lab', 'is_bot': True, 'username': 'Future_Lab_bot'}}
+2021-02-09 03:11:38,761, DEBUG, telegram.bot, Exiting: send_message
