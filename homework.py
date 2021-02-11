@@ -62,6 +62,7 @@ def get_homework_statuses(current_timestamp):
     }
     params = {
         'from_date': current_timestamp,
+        #'from_date': 0,
     }
     try:
         homework_statuses = requests.get(url=API_URL.format(API_URL_METHOD),
@@ -107,7 +108,7 @@ def main():
             homeworks = new_homework.get('homeworks')
             if homeworks:
                 send_message(parse_homework_status(homeworks[0]), bot_client)
-            logging.info('Сообщение было отправлено')
+                logging.info('Сообщение было отправлено')
             current_timestamp = new_homework.get('current_date',
                                                  current_timestamp)
             time.sleep(TIME_SLEEP)
